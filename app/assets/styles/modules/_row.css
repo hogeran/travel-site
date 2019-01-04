@@ -2,8 +2,18 @@
     
     @mixin clearfix;
     
-        
+    &__b-margin-until-medium{
+        margin-bottom: 1rem;
+    }
+
+
     @mixin atMedium{
+        
+        &__b-margin-until-medium{
+        margin-bottom: 0;
+        }
+
+
         &--gutters{
             padding-right: -65px
         }
