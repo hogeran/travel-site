@@ -577,6 +577,10 @@ a{
     
 }
 
+.wrapper--narrow{
+        max-width: 470px;
+    }
+
 .wrapper--medium{
         max-width: 976px;
     }
@@ -912,6 +916,10 @@ a{
             margin-bottom: 0;
             display: inline-block
     }
+    }
+
+.section-title--less-margin{
+        margin-bottom: 1.3rem;
     }
 
 .section-title--blue{
@@ -1373,4 +1381,21 @@ Instead edit gulp/templates/sprite*/
         opacity: 1;
         -webkit-transform: scale(1);
                 transform: scale(1);
+    }
+
+.modal{
+    position: fixed;
+    z-index: 5;
+    background-color: rgba(255,255,255,.94);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modal__description{
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 300;
+        line-height: 1.65;
     }
